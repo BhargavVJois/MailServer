@@ -8,7 +8,7 @@ require("dotenv").config();
 app.use(bodyParser.json());
 
 // Allow requests from your website's origin
-app.use(cors({ origin: 'https://bhargavvjois.github.io/Portfolio/' }));
+app.use(cors({ origin: 'https://bhargavvjois.github.io' }));
 
 const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
 
